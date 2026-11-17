@@ -1,0 +1,20 @@
+{
+  "name": "𝐀HMED-𝐌𝐃 Bot",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "keywords": [
+    "@𝐀HMED-𝐌𝐃"
+  ],
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+    }
+  ],
+  "env": {
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "𝐀HMED-𝐌𝐃",
+      "required": false
+    }
+  }
+}

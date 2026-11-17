@@ -1,0 +1,10 @@
+# Runtime secrets and generated state
+.env
+.env.*
+!.env.example
+session/
+sessions/
+auth_info*/
+data/db/
+node_modules/
+*.log
